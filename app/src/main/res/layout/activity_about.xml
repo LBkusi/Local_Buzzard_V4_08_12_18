@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Terms and Conditions (T’s and C’s)"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Definitions"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="35dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alert is a brief message sent to warn or notify another user.
+
+False Alert is an alert which is deliberately sent to deceive another user.
+
+Incident is an event which has occurred.
+
+Concern is a matter of interest or important to a user.
+
+Harassment is a form of aggressive pressure or intimidation towards an individual. This could be using threatening or abusive or insulting words within hearing or sight of the person likely to be harassed, or within the content of the Alert being sent.
+It is also a form of discrimination, and where it relates to race, sex, disability, religion or belief, or sexual orientation and age is covered by Equalities Act 2010.
+
+Bullying is identified as intimidating, hostile or humiliating treatment by one or more individuals.
+
+Abuse is to verbally or physically attack another user.
+
+Victimisation entails threatening or detrimental treatment towards a user.
+."
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="54dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. The Agreement"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="98dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Local Buzzard T’s and C’s is an agreement which defines our rules, requirements, acceptable behaviour and other useful terms users must agree to before using the Local Buzzard mobile app.
+
+All User’s are required to read and accept Local Buzzard’s T’s and C’s prior to completing their registration. By proceeding with the registration, users agree to adhere by our all our rules and regulations and users who fail to comply with this could potentially be banned from using the service.
+
+	2.1. Who does this apply to?
+This policy applies to all users who register to use the service."
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="117dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Rules"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="136dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We believe that all motorists should not be the last to to find out problems regarding their vehicles. We also strongly believe that all motorists would like to be informed of these issues and that is exactly what this platform is aimed at doing; allowing drivers to alert each other as they will wish to be alerted. In order to protect the experience and safety of the drivers who use Local Buzzard, there are some limitations on the type of content and behaviour that we allow.
+
+All individuals accessing or using Local Buzzard services must adhere to the policies set forth in the Rules. Failure to do so may result in Local Buzzard taking one or more of the following enforcement actions:
+
+* requiring you to send an apology to the individual whom you have caused harm to;
+
+* temporarily limiting your ability to create send or receive alerts to and from Local Buzzard users;
+
+* asking you to verify your account/driving licence via a three-way telephone call to DVLA;
+
+* permanently suspending your account(s).
+
+If you attempt to evade a permanent suspension by creating new accounts, we will suspend your new accounts.
+Please note that we may need to change these Rules from time to time and reserve the right to do so. This is the most current version as of December 2018.
+
+Local Buzzard may ask users to provide proof that their registered vehicle belongs to them. This could be done via asking the user to scan and email the following documents:
+* V5c Certificate;
+* Vehicle Insurance Documents;
+* Any other Document deemed appropriate at the time."
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="155dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Boundaries and and Use of Local Buzzard"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="193dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:text="We reserve the right to suspend accounts or take other appropriate action when a user misuse (see Paragraph 1) the service."
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="231dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Behaviour Policy?"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="260dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="372dp"
+                android:layout_height="418dp"
+                android:text="Local Buzzard aims to maintain a friendly and confidential online platform in which all users treat each other with dignity and respect and in accordance with Local Buzzards’ three R’s (Paragraph 3). The Local Buzzard platform attracts a diverse population with a wide range of differences and it is important to recognise and respect this. Harassment, Bullying, Assaults and Victimisations are therefore unacceptable and will not be tolerated. When such incidences do occur, this policy aims to reassure that the Local Buzzard team will investigate and if appropriate, refer to the Warning policy and the the most fitting warning will be issued.
+
+	5.1	The Three R’s
+* Respect - All users must treat other users as they would wish to be treated. This platform is open to individuals from diverse backgrounds and should only be used for its sole purpose, to keep one another informed. As a result, we ask that users refrain from using offensive language in their alerts and only send alerts which are genuine.
+
+* Responsibility - All users have a responsibility to ensure the content sent from their account is not derogatory and contains only information which informs the other user about their vehicle. Users are responsible for all alerts sent from their accounts and we ask that you double check the alert before sending, to ensure only the information needed is going to be sent.
+
+* Resourcefulness - Users are encouraged to be the eyes and ears for other motorists. This is something which all drivers do each day however, we are now asking drivers to go the extra mile and report what they observe. Achieving this will keep all motorists vigilant and create community cohesion."
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="277dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Warnings"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="354dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="577dp"
+                android:text="Stage 1 -
+
+When will this be issued?
+False Alerts : Users’ will be issued a Stage 1 for sending a False Alert. If Local Buzzard are informed that a False Alert has been received, an investigation will be conducted and the Recipient will be informed of the outcome.
+Offensive Language: Users’ will be issued a Stage 1 for any offensive language used.
+
+Will I have access to the service?
+Yes, Users will still have full access to the service sending and receiving alerts however, all sent Alerts will be closely monitored.
+
+How long will I be on Stage one for?
+Stage 1 warnings last for a period of 4 weeks from the date the user is informed.
+
+
+Stage 2 -
+
+When will this be issued:
+Bullying / Victimisation / Harassment / Abuse: Users’ will be issued with Stage 2 warning where Local Buzzard finds them to be in breach of any of the above following an investigation.
+Two False Alert Warnings: This will only apply when a user send’s a second false alert whilst still remaining on a Stage 1.
+Two Offensive Language Alerts: This will only apply when a user send’s a second alert containing offensive language.
+
+Will I have Access to the Service:
+Users on Stage 2 will still have access to the services however, there may be a decision to restrict the number of Alerts a user can send in a day. If this decision is taken, the user in question will be informed.
+
+How will this affect me?
+All users issued with a Stage 2 are required to assist Local Buzzard in verifying their accounts. This will include verifying the Driving Licence number provided during the registration state. The DVLA check will be done in one of two ways, or depending on the user engagement, both;
+        * Telephone Call - A three-way telephone call between the User, DVLA and Local Buzzard where, the DVLA representative will verify the user;
+        * Check Code - The user will be required to provide a Check Code from DVLA within three working days.
+
+How long will I be on this Stage for?
+Stage 2 warning will last for a period of 8 weeks months from the date the user is informed.
+
+Stage 3 -
+
+When will this be issued?
+Three False Alert Warnings: Users’ will be issued a stage 3 alert if a third false alert warning is issued whilst the user remains on a Stage 2 warning.
+
+Offensive Language / Bullying / Victimisation / Harassment / Abuse: Users’ will be issued a Stage 3 warning if they breach any of the above again. Stage 3 will be issued whether the user remains on Stage 2 or not as the safety of our users’ is paramount.
+
+How will this affect me?
+Users will no longer be able to access the Local Buzzard service and their account will be temporarily suspended.
+
+How long will I be on this Stage for?
+A minimum of six months."
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="373dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="7. Local Buzzard Privacy"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="366dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="633dp"
+                android:text="According to the General Data Protection Regulations, we are required to make it clear to all users the data we collect and the purpose it is used for. The regulation brings into action six privacy principles which we must ensure we follow strictly to protect users’ data:
+
+	7.1 Lawfulness, fairness and transparency
+		7.1.1	Lawfulness: Local Buzzard collect personal data to identify each user. The 			personal data collected will not be shared with any users or third parties. We may share your personal data with partners however, we will always ask user’s permission before any data is shared.
+		7.1.2	Transparency: Local Buzzard collect the following Personal Data on all users
+            1. Name;
+            2. Contact number;
+            3. Email address.
+	7.1.3	Fairness: The data collected is used only for Local Buzzard to identify users and nothing else. Users do not have to provide their personal data however, user’s must be aware that without providing the required personal data, they will not be able to use the services of Local Buzzard.
+	7.2 Purpose Limitations
+        * The information provided will only be used to for reasons stated in section 8 of the terms and conditions.
+	7.3 Data Minimisation
+        * Local Buzzard only collect data which is required for the user to access the service(7.1.2). Seeing as we do not wish to sell users information to third parties, we do not collect any unnecessary data.
+	7.4 Accuracy
+        * Users will be asked every 12 months to confirm that their contact number and email address are still correct. We will also ask users to confirm whether their car registration remains the same in order to ensure users are able to access the service. In doing this, we are ensuring the data we have for users are kept up to date and are accurate.
+	7.5 Storage Limitations
+        * How long does Local Buzzard keep users information? (Record Removal)?
+            * Local Buzzard will always store data on all active users.
+            * When accounts are deactivated, Local Buzzard will to discard all the personal data of the individual within eight months. This is for the reason that users may decide to return to the platform and we aim to make that return a smooth process. However, users have the right to request for their personal and vehicle details to be removed from the Local Buzzard Database anytime before the eight months is up.
+	7.6 Integrity and Confidential
+            * Local Buzzard will work tirelessly to assure users that the data provided at the log in stage will be kept confidential. We will work with out data protection partners to ensure we are using the most secure systems  available to our knowledge in order to keep the data safe.	"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="429dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

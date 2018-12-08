@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "96218850172",
+    "firebase_url": "https://local-buzzard.firebaseio.com",
+    "project_id": "local-buzzard",
+    "storage_bucket": "local-buzzard.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96218850172:android:38d928f2e22250d3",
+        "android_client_info": {
+          "package_name": "com.lb.richardk.lbfour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96218850172-945j94r8p83c01clte13ab44qn55fe97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLPhTYBZO9Y6OAML9y2l75GDeXTkJXf5M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

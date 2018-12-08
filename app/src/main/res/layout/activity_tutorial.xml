@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TutorialActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Tutorial"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Purpose of Local Buzzard"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="35dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Local Buzzard has been created to allow drivers to easily communicate with one another."
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="54dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Send Alert"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="98dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How do I send an Alert?"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="117dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To send an alert, simply follow these 3 steps below:"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="136dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Spot a Problem/Issue and Enter the Vehicle’s Registration"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="155dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Select a Subject"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="193dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:text="5. Press Send"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="231dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Can I Cancel a Sent Alert?"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="260dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="372dp"
+                android:layout_height="76dp"
+                android:text="No, however, we encourage users to resend another message (within one minute of sending the alert) selecting 'Message Sent in Error."
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="277dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="When can I send an Alert?"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="354dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Anytime you think a driver needs to be informed."
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="373dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:text="You can send an alert anytime you see something which you think the your fellow driver should be aware of. All users should ask themselves one question..."
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="366dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:text="Would I want someone to tell me if this was happening to my vehicle?"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="429dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:text="If the answer is YES, then we’ll encourage you to Send the Alert."
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="458dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:text="Also, you can send an alert to a driver where you need to make them aware of something. For example, where another driver has blocked your way or exit."
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="464dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reporting untrue alerts"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="519dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="373dp"
+                android:layout_height="wrap_content"
+                android:text="If you attend to your vehicle to find the Alert was untrue, please use the 'Report' function in 'Settings' to inform us of such occassions. Please include the date and time the Alert was sent to allow us to fully investigate."
+                tools:layout_editor_absoluteY="532dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
